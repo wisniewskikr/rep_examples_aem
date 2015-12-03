@@ -6,14 +6,14 @@
 	xmlns:nt="http://www.jcp.org/jcr/nt/1.0"    
     jcr:primaryType="cq:Template"
     jcr:title="Hello World - Project Root Template"
-    jcr:description="Template of page which should be project root for Hello World project. Recomended name is 'Cq5-example-helloworld'"
+    jcr:description="Template of page which should be project root for Hello World project. Recomended name is 'aem-example-helloworld'"
     allowedPaths="[/content(/.*)?]"
-    allowedChildren="[/apps/cq5-example-helloworld/templates/languageRootTemplate]"
+    allowedChildren="[/apps/aem-example-helloworld/templates/languageRootTemplate]"
     ranking="{Long}1">
     
     <jcr:content
     	cq:designPath="/etc/designs/webapp"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="cq5-example-helloworld/renderers/projectRootRenderer"/>
+        sling:resourceType="aem-example-helloworld/renderers/projectRootRenderer"/>
                 
 </jcr:root>

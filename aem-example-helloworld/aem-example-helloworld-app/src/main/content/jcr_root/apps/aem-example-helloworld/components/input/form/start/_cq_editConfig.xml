@@ -5,5 +5,5 @@
     jcr:primaryType="cq:EditConfig">
     <cq:formParameters
     	jcr:primaryType="nt:unstructured"
-        actionType="cq5-example-helloworld/components/input/form/actions/inputAction"/>
+        actionType="aem-example-helloworld/components/input/form/actions/inputAction"/>
 </jcr:root>

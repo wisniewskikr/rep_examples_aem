@@ -76,7 +76,7 @@
     <!-- ====================================================================== -->
     <profiles>
         <profile>
-            <id>cqInstallBundle</id>
+            <id>cqInstall</id>
             <build>
                 <plugins>
                     <plugin>

@@ -8,12 +8,12 @@
     jcr:title="Hello World - Input Template"
     jcr:description="Template of Input Page for Hello World project. Recommended english name is 'input'"
     allowedPaths="[/content(/.*)?]"
-    allowedParents="[/apps/cq5-example-helloworld/templates/languageRootTemplate]"    
+    allowedParents="[/apps/aem-example-helloworld/templates/languageRootTemplate]"    
     ranking="{Long}1">
     
     <jcr:content
     	cq:designPath="/etc/designs/webapp"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="cq5-example-helloworld/renderers/inputRenderer"/>
+        sling:resourceType="aem-example-helloworld/renderers/inputRenderer"/>
                 
 </jcr:root>

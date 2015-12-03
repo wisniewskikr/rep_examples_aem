@@ -11,7 +11,7 @@
 			<img id="duke" alt="duke" src="${model.fileReference}">
 		</c:when>
 		<c:otherwise>
-			<img id="duke" alt="duke" src="/apps/cq5-example-helloworld/components/output/image/duke.jpg">
+			<img id="duke" alt="duke" src="/apps/aem-example-helloworld/components/output/image/duke.jpg">
 		</c:otherwise>
 	</c:choose>	
 	

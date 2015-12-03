@@ -140,6 +140,17 @@
     <!-- ====================================================================== -->
     <profiles>
     
+       <!-- Profile "full" - builds packages with
+        application (includes bundle) and example content -->
+        <profile>
+            <id>full</id>
+            <modules>
+            	<module>aem-example-helloworld-bundle</module>
+    			<module>aem-example-helloworld-app</module>
+    			<module>aem-example-helloworld-content</module>
+    		</modules>	
+        </profile>
+       
        <!-- Profile "app" - builds package with
         application. Includes bundle -->
         <profile>
@@ -160,18 +171,7 @@
             <modules>
     			<module>aem-example-helloworld-content</module>
     		</modules>	
-        </profile>
-        
-        <!-- Profile "full" - builds packages with
-        application (includes bundle) and example content -->
-        <profile>
-            <id>full</id>
-            <modules>
-            	<module>aem-example-helloworld-bundle</module>
-    			<module>aem-example-helloworld-app</module>
-    			<module>aem-example-helloworld-content</module>
-    		</modules>	
-        </profile>
+        </profile>        
         
         <!-- Profile "bundle" - builds package with only
         java classes -->

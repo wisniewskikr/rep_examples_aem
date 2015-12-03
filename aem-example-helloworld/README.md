@@ -1,4 +1,4 @@
-CQ5 AND EXAMPLE HELLO WORLD
+AEM AND EXAMPLE HELLO WORLD
 
 
 
@@ -8,7 +8,7 @@ DESCRIPTION
 ===========
 
 
-This is Hello World project for CQ. This project consists of two pages:
+This is Hello World project for Aem. This project consists of two pages:
 - input page		: user types here his name;
 - output page		: text "Hello World <user_name>" is displayed here.
 
@@ -30,9 +30,9 @@ Recommended deployment of project:
 Recommended usage of project:
 -----------------------------
 - English language: 
-  http://localhost:4503/cq5-example-helloworld/en
+  http://localhost:4503/aem-example-helloworld/en
 - Polish language:
-  http://localhost:4503/cq5-example-helloworld/pl   
+  http://localhost:4503/aem-example-helloworld/pl   
 
 
 
@@ -59,8 +59,8 @@ This project contains followings groups of profiles:
 
 Example usage:
 * Bundle
-mvn clean install -Pbundle,cqInstallBundle,localAuthor
-mvn clean install -Pbundle,cqInstallBundle,localPublish
+mvn clean install -Pbundle,cqInstall,localAuthor
+mvn clean install -Pbundle,cqInstall,localPublish
 
 * App
 mvn clean install -Papp,cqInstall,localAutor
@@ -175,19 +175,19 @@ After deployment user can work with this project using following links:
 
 - Author Server:
   -------------
-http://localhost:4502/cf#/content/cq5-example-helloworld/en/input.html
-http://localhost:4502/cf#/content/cq5-example-helloworld/en/output.html
+http://localhost:4502/cf#/content/aem-example-helloworld/en/input.html
+http://localhost:4502/cf#/content/aem-example-helloworld/en/output.html
 or
-http://localhost:4502/cf#/content/cq5-example-helloworld/pl/wejscie.html
-http://localhost:4502/cf#/content/cq5-example-helloworld/pl/wyjscie.html
+http://localhost:4502/cf#/content/aem-example-helloworld/pl/wejscie.html
+http://localhost:4502/cf#/content/aem-example-helloworld/pl/wyjscie.html
 
 - Publish Server:
   --------------
-http://localhost:4503/content/cq5-example-helloworld/en/input.html
-http://localhost:4503/content/cq5-example-helloworld/en/output.html
+http://localhost:4503/content/aem-example-helloworld/en/input.html
+http://localhost:4503/content/aem-example-helloworld/en/output.html
 or
-http://localhost:4503/content/cq5-example-helloworld/pl/wejscie.html
-http://localhost:4503/content/cq5-example-helloworld/pl/wyjscie.html
+http://localhost:4503/content/aem-example-helloworld/pl/wejscie.html
+http://localhost:4503/content/aem-example-helloworld/pl/wyjscie.html
 
 
 
@@ -202,8 +202,8 @@ CQ mapping enables using shorter path in browser. It should be used only on Publ
 To deploy mapping on Publish server user can use following maven command:
 	mvn clean install -Ppublish,mapping
 and then he can use shorter project paths:
-	http://localhost:4503/cq5-example-helloworld
+	http://localhost:4503/aem-example-helloworld
 or
-	http://localhost:4503/cq5-example-helloworld/en
+	http://localhost:4503/aem-example-helloworld/en
 or
-	http://localhost:4503/cq5-example-helloworld/pl	
+	http://localhost:4503/aem-example-helloworld/pl	

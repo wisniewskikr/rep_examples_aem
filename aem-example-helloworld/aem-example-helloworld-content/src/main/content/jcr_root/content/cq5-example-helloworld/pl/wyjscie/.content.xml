@@ -5,10 +5,10 @@
         cq:designPath="/etc/designs/webapp"
         cq:lastModified="{Date}2014-02-13T08:49:55.486+01:00"
         cq:lastModifiedBy="admin"
-        cq:template="/apps/cq5-example-helloworld/templates/outputTemplate"
+        cq:template="/apps/aem-example-helloworld/templates/outputTemplate"
         jcr:primaryType="cq:PageContent"
         jcr:title="wyjscie"
-        sling:resourceType="cq5-example-helloworld/renderers/outputRenderer">
+        sling:resourceType="aem-example-helloworld/renderers/outputRenderer">
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
@@ -18,7 +18,7 @@
                 jcr:lastModified="{Date}2014-02-13T08:35:33.049+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/output/title"
+                sling:resourceType="aem-example-helloworld/components/output/title"
                 textHelloWorld="Witaj Świecie"/>
             <subtitle
                 jcr:created="{Date}2014-02-13T08:34:57.185+01:00"
@@ -26,7 +26,7 @@
                 jcr:lastModified="{Date}2014-02-13T08:35:46.432+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/output/subtitle"
+                sling:resourceType="aem-example-helloworld/components/output/subtitle"
                 textOutput="Wyjście"
                 textPage="Strona"/>
             <content
@@ -35,7 +35,7 @@
                 jcr:lastModified="{Date}2014-02-13T08:35:57.743+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/output/content"
+                sling:resourceType="aem-example-helloworld/components/output/content"
                 textHelloWorld="Witaj Świecie"/>
             <image
                 jcr:created="{Date}2014-02-13T08:35:04.240+01:00"
@@ -43,17 +43,17 @@
                 jcr:lastModified="{Date}2014-02-13T08:49:55.484+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/output/image"
-                fileReference="/content/dam/Cq5-example-helloworld/duke.jpg"/>
+                sling:resourceType="aem-example-helloworld/components/output/image"
+                fileReference="/content/dam/aem-example-helloworld/duke.jpg"/>
             <back
                 jcr:created="{Date}2014-02-13T08:35:07.600+01:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2014-02-13T08:36:23.382+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/output/back"
+                sling:resourceType="aem-example-helloworld/components/output/back"
                 backHint="Idź do poprzedniej strony"
-                backTarget="/content/cq5-example-helloworld/pl/wejscie"
+                backTarget="/content/aem-example-helloworld/pl/wejscie"
                 textBack="Powrót"/>
         </par>
     </jcr:content>

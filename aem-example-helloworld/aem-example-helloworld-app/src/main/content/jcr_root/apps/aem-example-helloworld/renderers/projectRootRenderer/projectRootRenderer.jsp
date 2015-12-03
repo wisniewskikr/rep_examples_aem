@@ -16,7 +16,7 @@
 
 <body>
 	<div class="page">
-		Template of page which should be project root for Hello World project. Recomended name is 'Cq5-example-helloworld'
+		Template of page which should be project root for Hello World project. Recomended name is 'aem-example-helloworld'
 	</div>		
 </body>
 

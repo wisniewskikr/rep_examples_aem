@@ -5,10 +5,10 @@
         cq:designPath="/etc/designs/webapp"
         cq:lastModified="{Date}2014-02-13T08:34:41.667+01:00"
         cq:lastModifiedBy="admin"
-        cq:template="/apps/cq5-example-helloworld/templates/inputTemplate"
+        cq:template="/apps/aem-example-helloworld/templates/inputTemplate"
         jcr:primaryType="cq:PageContent"
         jcr:title="wejscie"
-        sling:resourceType="cq5-example-helloworld/renderers/inputRenderer">
+        sling:resourceType="aem-example-helloworld/renderers/inputRenderer">
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
@@ -18,7 +18,7 @@
                 jcr:lastModified="{Date}2014-02-13T08:33:34.286+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/input/title"
+                sling:resourceType="aem-example-helloworld/components/input/title"
                 textHelloWorld="Witaj Świecie"/>
             <subtitle
                 jcr:created="{Date}2014-02-13T08:32:55.490+01:00"
@@ -26,7 +26,7 @@
                 jcr:lastModified="{Date}2014-02-13T08:33:44.866+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/input/subtitle"
+                sling:resourceType="aem-example-helloworld/components/input/subtitle"
                 textInput="Wejście"
                 textPage="Strona"/>
             <start
@@ -35,17 +35,17 @@
                 jcr:lastModified="{Date}2014-02-13T08:33:12.297+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/input/form/start"
-                actionType="cq5-example-helloworld/components/input/form/actions/inputAction"
-                formid="_content_cq5-example-helloworld_pl_wejscie_jcr_content_par_start"
-                pageAfterAction="/content/cq5-example-helloworld/pl/wyjscie"/>
+                sling:resourceType="aem-example-helloworld/components/input/form/start"
+                actionType="aem-example-helloworld/components/input/form/actions/inputAction"
+                formid="_content_aem-example-helloworld_pl_wejscie_jcr_content_par_start"
+                pageAfterAction="/content/aem-example-helloworld/pl/wyjscie"/>
             <content
                 jcr:created="{Date}2014-02-13T08:33:15.903+01:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2014-02-13T08:34:21.267+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/input/form/content"
+                sling:resourceType="aem-example-helloworld/components/input/form/content"
                 nameDescription="Wpisz tutaj swoje imię"
                 nameErrorMessage="Proszę wypełnić to pole"
                 textName="Imię"/>
@@ -55,7 +55,7 @@
                 jcr:lastModified="{Date}2014-02-13T08:34:41.664+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq5-example-helloworld/components/input/form/submit"
+                sling:resourceType="aem-example-helloworld/components/input/form/submit"
                 submitHint="Idź do następnej strony"
                 textSubmit="Wyślij"/>
             <form_end_1392276779280

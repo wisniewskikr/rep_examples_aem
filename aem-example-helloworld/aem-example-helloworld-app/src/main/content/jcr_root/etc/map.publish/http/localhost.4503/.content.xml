@@ -5,6 +5,6 @@
     cq:lastReplicationAction="Activate"
     jcr:mixinTypes="[cq:ReplicationStatus]"
     jcr:primaryType="sling:Mapping">
-    <cq5-example-helloworld/>
-    <cq5-example-helloworld_home/>
+    <aem-example-helloworld/>
+    <aem-example-helloworld_home/>
 </jcr:root>

@@ -5,10 +5,10 @@
         cq:designPath="/etc/designs/webapp"
         cq:lastModified="{Date}2014-02-13T08:30:10.091+01:00"
         cq:lastModifiedBy="admin"
-        cq:template="/apps/cq5-example-helloworld/templates/languageRootTemplate"
+        cq:template="/apps/aem-example-helloworld/templates/languageRootTemplate"
         jcr:primaryType="cq:PageContent"
         jcr:title="pl"
-        sling:resourceType="cq5-example-helloworld/renderers/languageRootRenderer"/>
+        sling:resourceType="aem-example-helloworld/renderers/languageRootRenderer"/>
     <wejscie/>
     <wyjscie/>
 </jcr:root>

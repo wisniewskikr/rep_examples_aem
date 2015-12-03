@@ -23,7 +23,7 @@
                         <workflowmodel
                             jcr:primaryType="cq:Widget"
                             allowBlank="{Boolean}true"
-                            componentId="cq5_form_action_workflow_id"
+                            componentId="aem_form_action_workflow_id"
                             fieldDescription="Choose the workflow that should be started on form submission. Click the thumbnail image to view or edit the selected workflow model."
                             fieldLabel="Start Workflow"
                             name="./workflowModel"
@@ -44,7 +44,7 @@
 					            <inputAction
 					                jcr:primaryType="cq:Widget"
 					                text="Input Action"
-					                value="cq5-example-helloworld/components/input/form/actions/inputAction"
+					                value="aem-example-helloworld/components/input/form/actions/inputAction"
 					                qtip="Action for Input Page" />
 					   		</options>
                         </actiontype>    
