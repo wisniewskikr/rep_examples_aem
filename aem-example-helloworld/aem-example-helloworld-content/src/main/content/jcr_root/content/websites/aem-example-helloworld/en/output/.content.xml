@@ -3,58 +3,57 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/webapp"
-        cq:lastModified="{Date}2014-02-13T08:49:55.486+01:00"
+        cq:lastModified="{Date}2015-12-01T10:49:50.848+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/aem-example-helloworld/templates/outputTemplate"
         jcr:primaryType="cq:PageContent"
-        jcr:title="wyjscie"
+        jcr:title="output"
         sling:resourceType="aem-example-helloworld/renderers/outputRenderer">
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
             <title
-                jcr:created="{Date}2014-02-13T08:34:55.054+01:00"
+                jcr:created="{Date}2015-12-01T10:49:18.217+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:35:33.049+01:00"
+                jcr:lastModified="{Date}2015-12-01T10:49:18.217+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/title"
-                textHelloWorld="Witaj Świecie"/>
+                textHelloWorld="Hello World"/>
             <subtitle
-                jcr:created="{Date}2014-02-13T08:34:57.185+01:00"
+                jcr:created="{Date}2015-12-01T10:49:21.072+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:35:46.432+01:00"
+                jcr:lastModified="{Date}2015-12-01T10:49:21.072+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/subtitle"
-                textOutput="Wyjście"
-                textPage="Strona"/>
+                textOutput="Output"
+                textPage="Page"/>
             <content
-                jcr:created="{Date}2014-02-13T08:35:01.542+01:00"
+                jcr:created="{Date}2015-12-01T10:49:26.489+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:35:57.743+01:00"
+                jcr:lastModified="{Date}2015-12-01T10:49:26.489+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/content"
-                textHelloWorld="Witaj Świecie"/>
+                textHelloWorld="Hello World"/>
             <image
-                jcr:created="{Date}2014-02-13T08:35:04.240+01:00"
+                jcr:created="{Date}2015-12-01T10:49:29.522+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:49:55.484+01:00"
+                jcr:lastModified="{Date}2015-12-01T10:49:29.522+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aem-example-helloworld/components/output/image"
-                fileReference="/content/dam/aem-example-helloworld/duke.jpg"/>
+                sling:resourceType="aem-example-helloworld/components/output/image"/>
             <back
-                jcr:created="{Date}2014-02-13T08:35:07.600+01:00"
+                jcr:created="{Date}2015-12-01T10:49:32.691+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:36:23.382+01:00"
+                jcr:lastModified="{Date}2015-12-01T10:49:50.844+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/back"
-                backHint="Idź do poprzedniej strony"
-                backTarget="/content/aem-example-helloworld/pl/wejscie"
-                textBack="Powrót"/>
+                backHint="Go back to previous page"
+                backTarget="/content/websites/aem-example-helloworld/en/input"
+                textBack="Back"/>
         </par>
     </jcr:content>
 </jcr:root>

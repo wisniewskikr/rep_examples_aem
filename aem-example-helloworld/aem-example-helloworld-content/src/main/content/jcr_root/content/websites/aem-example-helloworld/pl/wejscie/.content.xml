@@ -3,62 +3,62 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/webapp"
-        cq:lastModified="{Date}2014-02-13T08:31:29.720+01:00"
+        cq:lastModified="{Date}2015-12-03T09:23:56.152+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/aem-example-helloworld/templates/inputTemplate"
         jcr:primaryType="cq:PageContent"
-        jcr:title="input"
+        jcr:title="wejscie"
         sling:resourceType="aem-example-helloworld/renderers/inputRenderer">
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
             <title
-                jcr:created="{Date}2014-02-13T08:30:41.157+01:00"
+                jcr:created="{Date}2015-12-03T09:20:15.079+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:30:41.157+01:00"
+                jcr:lastModified="{Date}2015-12-03T09:20:24.788+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/input/title"
-                textHelloWorld="Hello World"/>
+                textHelloWorld="Witaj Świecie"/>
             <subtitle
-                jcr:created="{Date}2014-02-13T08:30:43.062+01:00"
+                jcr:created="{Date}2015-12-03T09:20:30.722+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:30:43.062+01:00"
+                jcr:lastModified="{Date}2015-12-03T09:20:42.603+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/input/subtitle"
-                textInput="Input"
-                textPage="Page"/>
+                textInput="Wejście"
+                textPage="Strona"/>
             <start
-                jcr:created="{Date}2014-02-13T08:30:48.382+01:00"
+                jcr:created="{Date}2015-12-03T09:20:48.213+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:31:08.571+01:00"
+                jcr:lastModified="{Date}2015-12-03T09:23:56.145+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/input/form/start"
                 actionType="aem-example-helloworld/components/input/form/actions/inputAction"
-                formid="_content_aem-example-helloworld_en_input_jcr_content_par_start"
-                pageAfterAction="/content/aem-example-helloworld/en/output"/>
+                formid="_content_websites_aem-example-helloworld_pl_wejscie_jcr_content_par_start"
+                pageAfterAction="/content/websites/aem-example-helloworld/pl/wyjscie"/>
             <content
-                jcr:created="{Date}2014-02-13T08:31:12.585+01:00"
+                jcr:created="{Date}2015-12-03T09:22:43.998+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:31:12.585+01:00"
+                jcr:lastModified="{Date}2015-12-03T09:23:18.491+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/input/form/content"
-                nameDescription="Type your name here"
-                nameErrorMessage="Please fill this field"
-                textName="Name"/>
+                nameDescription="Wpisz tutaj swoje imię"
+                nameErrorMessage="Proszę wypełnić to pole"
+                textName="Imię"/>
             <submit
-                jcr:created="{Date}2014-02-13T08:31:29.718+01:00"
+                jcr:created="{Date}2015-12-03T09:22:51.644+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2014-02-13T08:31:29.718+01:00"
+                jcr:lastModified="{Date}2015-12-03T09:23:37.066+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/input/form/submit"
-                submitHint="Go to next page"
-                textSubmit="Submit"/>
-            <form_end_1392276648430
+                submitHint="Idź do następnej strony"
+                textSubmit="Wyślij"/>
+            <form_end_1449130848217
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/form/end"/>
         </par>

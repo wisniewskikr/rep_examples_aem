@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/content/aem-example-helloworld"/>
+    <filter root="/content/websites/aem-example-helloworld"/>
+    <filter root="/content/dam/aem-example-helloworld"/>
 </workspaceFilter>
