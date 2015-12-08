@@ -9,6 +9,7 @@ import org.apache.sling.models.annotations.Via;
 
 import pl.kwi.model.abstr.AbstractSlingModel;
 import pl.kwi.model.exceptions.SlingModelsException;
+import pl.kwi.services.LogService;
 
 @Model(adaptables=SlingHttpServletRequest.class)
 public class OutputContentModel extends AbstractSlingModel {
@@ -16,6 +17,9 @@ public class OutputContentModel extends AbstractSlingModel {
 	
 	@Inject @Via("resource")
 	private String textHelloWorld;
+	
+	@Inject
+	private LogService logService;
 	
 	private String name;
 	
@@ -28,6 +32,7 @@ public class OutputContentModel extends AbstractSlingModel {
 	@PostConstruct
 	public void init() throws SlingModelsException {
 		name = getSlingRequest().getParameter("name");
+		logService.logText(name);
 	}
 	
 	
