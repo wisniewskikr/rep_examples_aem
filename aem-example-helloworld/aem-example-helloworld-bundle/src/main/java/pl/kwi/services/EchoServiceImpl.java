@@ -12,21 +12,21 @@ import org.osgi.service.component.ComponentContext;
 @Service
 @Component(immediate = true, metatype = true)
 @Properties({
-	@Property(name = Constants.SERVICE_DESCRIPTION, value = "Service for logging"),
-    @Property(name = "logService.description", value = "Default description", description = "Description which will be displayed in text together with text")
+	@Property(name = Constants.SERVICE_DESCRIPTION, value = "Service for display message from context and text from code"),
+    @Property(name = "echoService.message", value = "Default message", description = "Message which will be displayed together with text from code")
 })
-public class LogServiceImpl implements LogService {
+public class EchoServiceImpl implements EchoService {
 		
-	private String description;
+	private String message;
 	
 	@Activate
 	public void activate(ComponentContext context) throws BundleException {
-		description = (String) context.getProperties().get("logService.description");
+		message = (String) context.getProperties().get("echoService.message");
 	}
 
-	public void logText(String text) {
+	public void displayMessageAndText(String text) {
 		
-		System.out.println(description + ": " + text);
+		System.out.println(message + ": " + text);
 
 	}
 
