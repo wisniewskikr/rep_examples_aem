@@ -3,6 +3,24 @@ AEM AND EXAMPLE HELLO WORLD
 
 
 
+WITH SERVICE
+===========
+
+
+It means that this Hello World is using also service. Interface and implementation of service
+are located in package 'pl.kwi.services'. This is EchoService which displays on server
+message from context and text from code.
+
+To set message in context you have to go to location '/system/console/configMgr', find
+service 'pl.kwi.services.EchoService.name' and set message default message is 'Default message'.
+This message together with name will be displayed on server.
+
+Service can read properties from context if:
+* metatype = true
+* (String) context.getProperties().get(MESSAGE_PROP)
+
+
+
 
 DESCRIPTION
 ===========
