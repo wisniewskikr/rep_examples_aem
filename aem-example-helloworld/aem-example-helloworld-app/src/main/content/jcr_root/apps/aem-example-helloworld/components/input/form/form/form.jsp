@@ -8,12 +8,12 @@
 
 <form method="POST" action="webapp.SELECTORNAME.html">	
 	
-	<c:set var="modelContent" value="<%=FormUtil.getModelWithResultComponentExist(resource, "content")%>"/>                 
+	<c:set var="modelContent" value="<%=FormUtil.getModelWithResultComponentExist(resource, "formParsys/content")%>"/>                 
 	<c:if test="${!modelContent.componentExists}">
 		<div class="errorMessages">Please add mandatory form`s component: "Form - Content"</div>
 	</c:if>
 	
-	<c:set var="modelSubmit" value="<%=FormUtil.getModelWithResultComponentExist(resource, "submit")%>"/>                 
+	<c:set var="modelSubmit" value="<%=FormUtil.getModelWithResultComponentExist(resource, "formParsys/submit")%>"/>                 
 	<c:if test="${!modelSubmit.componentExists}">
 		<div class="errorMessages">Please add mandatory form`s component: "Form - Submit button"</div>
 	</c:if>	 

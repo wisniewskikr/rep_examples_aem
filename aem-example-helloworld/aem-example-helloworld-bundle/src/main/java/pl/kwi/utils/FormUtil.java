@@ -19,7 +19,8 @@ public class FormUtil {
 				
 		Resource res = null;
 		try {
-			res = resource.getParent().getChild(componentName);
+			System.out.println("---resource.getPath(): " + resource.getPath());
+			res = resource.getChild(componentName);
 		} catch (Exception e) {}
 		
 		if(res == null) {
