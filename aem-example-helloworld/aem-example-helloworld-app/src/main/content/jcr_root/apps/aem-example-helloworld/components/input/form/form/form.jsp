@@ -1,12 +1,13 @@
 <%@include file="/libs/foundation/global.jsp" %>
 <%%>
 <%@taglib prefix="sling2" uri="http://sling.apache.org/taglibs/sling" %>
-<sling2:adaptTo adaptable="${slingRequest}" adaptTo="pl.kwi.model.input.form.InputFormModel" var="model"/>
+<sling2:adaptTo adaptable="${resource}" adaptTo="pl.kwi.model.input.form.InputFormModel" var="model"/>
 <%@ page import="pl.kwi.utils.FormUtil, pl.kwi.utils.FormUtilModel"%>
 
 
 
-<form method="POST" action="webapp.SELECTORNAME.html">	
+<form method="POST" action="servlet.INPUT.html">
+	<input type="hidden" name="submitTarget" value="${model.submitTarget}"/>	
 	
 	<c:set var="modelContent" value="<%=FormUtil.getModelWithResultComponentExist(resource, "formParsys/content")%>"/>                 
 	<c:if test="${!modelContent.componentExists}">

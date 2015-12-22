@@ -1,27 +1,30 @@
-package pl.kwi.actions;
+package pl.kwi.servlets;
 
 import java.io.IOException;
 
+import javax.servlet.ServletException;
+
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Properties;
+import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ValueMap;
+import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 
-public class InputAction {
+@Component(immediate=true, metatype=false, label="INPUT SERVLET")
+@Service
+@Properties(value = {
+    @org.apache.felix.scr.annotations.Property(name="sling.servlet.methods", value={"POST"}),
+    @org.apache.felix.scr.annotations.Property(name="sling.servlet.resourceTypes", value={"sling/servlet/default"}),
+    @org.apache.felix.scr.annotations.Property(name="sling.servlet.selectors", value={"INPUT"}),
+    @org.apache.felix.scr.annotations.Property(name="sling.servlet.extensions", value={"html"})
+})
+public class InputServlet extends SlingAllMethodsServlet {
 	
-	
-	private InputAction() {}
-	
+	private static final long serialVersionUID = 1L;
 
-	/**
-	 * Method handles action from Input page.
-	 * 
-	 * @param request object <code>SlingHttpServletRequest</code> with request from page
-	 * @param response object <code>SlingHttpServletResponse</code> with response to page
-	 * @param resource object <code>Resource</code> with current page resource
-	 * @throws IOException
-	 */
-	public static void handleAction(SlingHttpServletRequest request, SlingHttpServletResponse response, Resource resource) throws IOException {
+	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException, IOException {
+
 		
 		String errorMessage = getErrorMessage(request);
 		if(errorMessage != null) {
@@ -35,9 +38,8 @@ public class InputAction {
 		
 		try {
 			
-			ValueMap map = resource.adaptTo(ValueMap.class);
-			String pageAfterAction = map.get("pageAfterAction", String.class) + ".html";
-			path = request.getResourceResolver().map(pageAfterAction);
+			String submitTarget = request.getParameter("submitTarget");
+			path = request.getResourceResolver().map(submitTarget) + ".html";
 			
 		} catch (Exception e) {
 			e.printStackTrace();
