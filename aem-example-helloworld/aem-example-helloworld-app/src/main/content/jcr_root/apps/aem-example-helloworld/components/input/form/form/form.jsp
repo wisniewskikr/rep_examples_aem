@@ -7,7 +7,13 @@
 
 
 <form method="POST" action="servlet.INPUT.html">
-	<input type="hidden" name="submitTarget" value="${model.submitTarget}"/>	
+	<input type="hidden" name="submitTarget" value="${model.submitTarget}"/>
+	
+	<c:if test="${empty model.submitTarget}">
+		<div class="errorMessages">
+			Please fill mandatory form`s field: "Submit target"			
+		</div>
+	</c:if>	
 	
 	<c:set var="modelContent" value="<%=FormUtil.getModelWithResultComponentExist(resource, "formParsys/content")%>"/>                 
 	<c:if test="${!modelContent.componentExists}">
