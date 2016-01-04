@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/webapp"
-        cq:lastModified="{Date}2015-12-01T10:49:50.848+01:00"
+        cq:lastModified="{Date}2015-12-21T14:52:30.359+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/aem-example-helloworld/templates/outputTemplate"
         jcr:primaryType="cq:PageContent"
@@ -13,41 +13,41 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
             <title
-                jcr:created="{Date}2015-12-01T10:49:18.217+01:00"
+                jcr:created="{Date}2015-12-21T14:52:00.148+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-01T10:49:18.217+01:00"
+                jcr:lastModified="{Date}2015-12-21T14:52:00.148+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/title"
                 textHelloWorld="Hello World"/>
             <subtitle
-                jcr:created="{Date}2015-12-01T10:49:21.072+01:00"
+                jcr:created="{Date}2015-12-21T14:52:02.499+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-01T10:49:21.072+01:00"
+                jcr:lastModified="{Date}2015-12-21T14:52:02.499+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/subtitle"
                 textOutput="Output"
                 textPage="Page"/>
             <content
-                jcr:created="{Date}2015-12-01T10:49:26.489+01:00"
+                jcr:created="{Date}2015-12-21T14:52:06.857+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-01T10:49:26.489+01:00"
+                jcr:lastModified="{Date}2015-12-21T14:52:06.857+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/content"
                 textHelloWorld="Hello World"/>
             <image
-                jcr:created="{Date}2015-12-01T10:49:29.522+01:00"
+                jcr:created="{Date}2015-12-21T14:52:11.117+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-01T10:49:29.522+01:00"
+                jcr:lastModified="{Date}2015-12-21T14:52:11.117+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/image"/>
             <back
-                jcr:created="{Date}2015-12-01T10:49:32.691+01:00"
+                jcr:created="{Date}2015-12-21T14:52:13.684+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-01T10:49:50.844+01:00"
+                jcr:lastModified="{Date}2015-12-21T14:52:30.356+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/output/back"
