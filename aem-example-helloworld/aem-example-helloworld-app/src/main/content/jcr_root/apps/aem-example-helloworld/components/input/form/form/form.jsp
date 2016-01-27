@@ -25,6 +25,6 @@
 		<div class="errorMessages">Please add mandatory form`s component: "Form - Submit button"</div>
 	</c:if>	 
 	
-	<cq:include path="formParsys" resourceType="aem-example-helloworld/components/parsys/formParsys"/>
+	<cq:include path="baseParsys" resourceType="aem-example-helloworld/components/parsys/baseParsys"/>
 	  	
 </form>

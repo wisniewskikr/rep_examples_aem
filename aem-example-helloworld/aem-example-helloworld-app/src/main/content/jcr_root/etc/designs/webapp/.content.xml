@@ -17,9 +17,10 @@
                 components="[group:Hello World - Input]">
              </par>
              <form jcr:primaryType="nt:unstructured">
-	        	<formParsys
+	        	<baseParsys
+	        		cq:emptyText="Tmp text here"
 	                jcr:primaryType="nt:unstructured"
-	                sling:resourceType="aem-example-helloworld/components/parsys/formParsys"                
+	                sling:resourceType="aem-example-helloworld/components/parsys/baseParsys"                
 	                components="[group:Hello World - Input Form]"/>
         	</form>  
         </inputRenderer>         
