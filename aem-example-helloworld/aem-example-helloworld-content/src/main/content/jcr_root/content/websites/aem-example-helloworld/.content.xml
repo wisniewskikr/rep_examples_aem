@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/webapp"
-        cq:lastModified="{Date}2015-12-14T14:11:06.714+01:00"
+        cq:lastModified="{Date}2016-01-28T10:20:33.301+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/aem-example-helloworld/templates/projectRootTemplate"
         jcr:primaryType="cq:PageContent"

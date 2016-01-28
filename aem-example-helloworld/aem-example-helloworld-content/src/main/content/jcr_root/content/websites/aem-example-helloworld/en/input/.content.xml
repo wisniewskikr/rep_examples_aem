@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/webapp"
-        cq:lastModified="{Date}2015-12-22T15:15:17.139+01:00"
+        cq:lastModified="{Date}2016-01-28T10:45:26.277+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/aem-example-helloworld/templates/inputTemplate"
         jcr:primaryType="cq:PageContent"
@@ -11,39 +11,39 @@
         sling:resourceType="aem-example-helloworld/renderers/inputRenderer">
         <par
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="foundation/components/parsys">
+            sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys">
             <title
-                jcr:created="{Date}2015-12-17T14:15:47.351+01:00"
+                jcr:created="{Date}2016-01-28T10:44:42.756+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-17T14:15:47.351+01:00"
+                jcr:lastModified="{Date}2016-01-28T10:44:42.756+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/input/title"
                 textHelloWorld="Hello World"/>
             <subtitle
-                jcr:created="{Date}2015-12-17T14:15:49.110+01:00"
+                jcr:created="{Date}2016-01-28T10:44:44.803+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-17T14:15:49.110+01:00"
+                jcr:lastModified="{Date}2016-01-28T10:44:44.803+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/input/subtitle"
                 textInput="Input"
                 textPage="Page"/>
             <form
-                jcr:created="{Date}2015-12-22T15:10:52.117+01:00"
+                jcr:created="{Date}2016-01-28T10:44:47.002+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-22T15:11:15.405+01:00"
+                jcr:lastModified="{Date}2016-01-28T10:45:26.271+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/input/form/form"
                 submitTarget="/content/websites/aem-example-helloworld/en/output">
                 <formParsys
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aem-example-helloworld/components/parsys/formParsys">
+                    sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys">
                     <content
-                        jcr:created="{Date}2015-12-22T15:11:22.288+01:00"
+                        jcr:created="{Date}2016-01-28T10:44:56.289+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2015-12-22T15:11:22.288+01:00"
+                        jcr:lastModified="{Date}2016-01-28T10:44:56.289+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="aem-example-helloworld/components/input/form/content"
@@ -51,9 +51,9 @@
                         nameErrorMessage="Please fill this field"
                         textName="Name"/>
                     <submit
-                        jcr:created="{Date}2015-12-22T15:15:17.132+01:00"
+                        jcr:created="{Date}2016-01-28T10:45:02.809+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2015-12-22T15:15:17.132+01:00"
+                        jcr:lastModified="{Date}2016-01-28T10:45:02.809+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="aem-example-helloworld/components/input/form/submit"
