@@ -16,7 +16,7 @@
 
 <body>
 	<div class="page">
-		<cq:include path="par" resourceType="foundation/components/parsys"/>
+		<cq:include path="par" resourceType="aem-example-helloworld/components/parsys/emptyTextParsys"/>
 	</div>		
 </body>
 

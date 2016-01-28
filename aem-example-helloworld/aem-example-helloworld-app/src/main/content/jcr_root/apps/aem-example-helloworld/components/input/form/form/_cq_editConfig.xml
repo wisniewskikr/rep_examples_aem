@@ -4,6 +4,7 @@
 	xmlns:jcr="http://www.jcp.org/jcr/1.0" 
 	xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
 	cq:layout="editbar"
+	cq:actions="[text:Input form,-,edit,delete]"
     jcr:primaryType="cq:EditConfig">
     <cq:dropTargets jcr:primaryType="cq:DropTargetConfig"/>    
      <cq:listeners

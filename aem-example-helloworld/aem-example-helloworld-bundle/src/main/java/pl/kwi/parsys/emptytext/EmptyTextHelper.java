@@ -1,4 +1,4 @@
-package com.roche.dfac.cobas.components.infrastructure.baseParsys;
+package pl.kwi.parsys.emptytext;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
@@ -11,9 +11,6 @@ import com.day.cq.wcm.api.designer.Design;
 import com.day.cq.wcm.api.designer.Designer;
 import com.day.cq.wcm.api.designer.Style;
 
-/**
- * @author michal.chudy
- */
 
 public class EmptyTextHelper {
 
@@ -28,9 +25,6 @@ public class EmptyTextHelper {
      * @param request request object for 'parsys/new' component.
      */
     public void applyEmptyText(SlingHttpServletRequest request, EditContext editContext) {
-    	
-    	System.out.println(request == null);
-    	System.out.println(editContext == null);
     	
         if (editContext != null) {
             Resource resource = request.getResource();
@@ -47,11 +41,8 @@ public class EmptyTextHelper {
             String emptyText = DEFAULT_EMPTY_TEXT;
             Style style = getStyle(parsysResource, editContext);
             
-            System.out.println(style == null);
-            
             if (style != null) {
                 emptyText = style.get(CQ_EMPTY_TEXT, DEFAULT_EMPTY_TEXT);
-                System.out.println(emptyText);
             }
             editContext.getEditConfig().setEmpty(true);
             editContext.getEditConfig().setEmptyText(emptyText);
@@ -66,6 +57,7 @@ public class EmptyTextHelper {
      * @return design Style of parsys.
      */
     private Style getStyle(Resource res, EditContext editContext) {
+    	
         ComponentContext ctx = editContext.getParent().getComponentContext();
         Designer d = (Designer) res.getResourceResolver().adaptTo(Designer.class);
         Design design;
@@ -76,11 +68,12 @@ public class EmptyTextHelper {
             page = pMgr.getContainingPage(res);
         }
 
-        design = d.getDesign(page);
+        design = d.getDesign(page);       
 
         if (design == null) {
             return null;
         }
+        
         if (ctx == null) {
             return design.getStyle(res);
         }

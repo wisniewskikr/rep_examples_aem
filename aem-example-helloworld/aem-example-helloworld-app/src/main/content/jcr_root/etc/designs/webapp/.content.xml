@@ -12,22 +12,23 @@
         sling:resourceType="wcm/core/components/designer">
         <inputRenderer jcr:primaryType="nt:unstructured">
         	<par
+                cq:emptyText="Drag components from group 'Hello World - Input'"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="foundation/components/parsys"                
+                sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys"                
                 components="[group:Hello World - Input]">
              </par>
              <form jcr:primaryType="nt:unstructured">
-	        	<baseParsys
-	        		cq:emptyText="Tmp text here"
+	        	<formParsys	        		
 	                jcr:primaryType="nt:unstructured"
-	                sling:resourceType="aem-example-helloworld/components/parsys/baseParsys"                
+	                sling:resourceType="aem-example-helloworld/components/parsys/formParsys"                
 	                components="[group:Hello World - Input Form]"/>
-        	</form>  
+       		</form>
         </inputRenderer>         
         <outputRenderer jcr:primaryType="nt:unstructured">
         	<par
+                cq:emptyText="Drag components from group 'Hello World - Output'"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="foundation/components/parsys"                
+                sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys"                
                 components="[group:Hello World - Output]"/>
         </outputRenderer>              
     </jcr:content>    

@@ -1,7 +1,7 @@
 <%@include file="/libs/foundation/global.jsp"%>
 <%@ page session="false" import="
     com.day.cq.wcm.api.components.EditContext,
-    com.roche.dfac.cobas.components.infrastructure.baseParsys.EmptyTextHelper,
+    pl.kwi.parsys.emptytext.EmptyTextHelper,
     com.day.text.Text,
     org.apache.sling.api.resource.Resource,
     com.day.cq.wcm.commons.WCMUtils" %><%
