@@ -8,25 +8,9 @@ DESCRIPTION
 ===========
 
 
-This is Hello World project for Aem. It uses custom form and custom servlet.
-
-To use form in CQ you have to:
-- in *.jsp file:	add selector to action in form. Selector has to begin with "." and end with suffix.
-					For instance in action "webapp.SELECTORNAME.html" selector is "SELECTORNAME";
-- in servlet:		extend SlingAllMethodsServlet;
-- in servlet:		create service with specified properties. For instance "sling.servlet.selectors"
-					has to have "SELECTORNAME" from action;
-
-Example properties:
-
-@Component(immediate=true, metatype=false, label="EXAMPLE SERVLET")
-@Service
-@Properties(value = {
-    @org.apache.felix.scr.annotations.Property(name="sling.servlet.methods", value={"POST"}),
-    @org.apache.felix.scr.annotations.Property(name="sling.servlet.resourceTypes", value={"sling/servlet/default"}),
-    @org.apache.felix.scr.annotations.Property(name="sling.servlet.selectors", value={"SELECTORNAME"}),
-    @org.apache.felix.scr.annotations.Property(name="sling.servlet.extensions", value={"html"})
-}) 
+In this project emptyTextParsys was created. This is parsys which empty text is
+not definied in "new.jsp" but in desings config file: \etc\designs\webapp\.content.xml.
+For this purpose java class 'EmptyTextHelper' was created and parsys 'emptyTextParsys'.
 
 This project consists of two pages:
 - input page		: user types here his name;
