@@ -16,13 +16,14 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys"                
                 components="[group:Hello World - Input]">
+                <form jcr:primaryType="nt:unstructured">
+		        	<formParsys	
+		        		cq:emptyText="Drag components from group 'Hello World - Input Form'"        		
+		                jcr:primaryType="nt:unstructured"
+		                sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys"                
+		                components="[group:Hello World - Input Form]"/>
+	       		</form>
              </par>
-             <form jcr:primaryType="nt:unstructured">
-	        	<formParsys	        		
-	                jcr:primaryType="nt:unstructured"
-	                sling:resourceType="aem-example-helloworld/components/parsys/formParsys"                
-	                components="[group:Hello World - Input Form]"/>
-       		</form>
         </inputRenderer>         
         <outputRenderer jcr:primaryType="nt:unstructured">
         	<par

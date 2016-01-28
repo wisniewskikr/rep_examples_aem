@@ -18,6 +18,7 @@
             fieldLabel="Button 'Back' target"                       
             name="./backTarget"
             jcr:primaryType="cq:Widget"
-            xtype="pathfield" />                                                       
+            xtype="pathfield"
+            allowBlank="false" />                                                       
     </items>
 </jcr:root>
