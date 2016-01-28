@@ -13,14 +13,10 @@
         <inputRenderer jcr:primaryType="nt:unstructured">
         	<par
                 cq:emptyText="Drag components from group 'Hello World - Input'"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys"                
                 components="[group:Hello World - Input]">
                 <form jcr:primaryType="nt:unstructured">
 		        	<formParsys	
 		        		cq:emptyText="Drag components from group 'Hello World - Input Form'"        		
-		                jcr:primaryType="nt:unstructured"
-		                sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys"                
 		                components="[group:Hello World - Input Form]"/>
 	       		</form>
              </par>
@@ -28,8 +24,6 @@
         <outputRenderer jcr:primaryType="nt:unstructured">
         	<par
                 cq:emptyText="Drag components from group 'Hello World - Output'"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aem-example-helloworld/components/parsys/emptyTextParsys"                
                 components="[group:Hello World - Output]"/>
         </outputRenderer>              
     </jcr:content>    
